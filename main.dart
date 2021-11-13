@@ -1,7 +1,6 @@
 import 'dart:io';
 
 void main() {
-  // var inputeur = num.parse(stdin.readLineSync()!);
   var curr = Currency();
   print(curr.currencyToday());
   print(
